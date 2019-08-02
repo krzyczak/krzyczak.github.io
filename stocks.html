@@ -1,0 +1,67 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Stock Market Widgets</title>
+  <meta name="description" content="Stock Market Widgets">
+  <meta name="author" content="krzyczak">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+  <!-- <script src="https://unpkg.com/@ungap/custom-elements-builtin"></script> -->
+  <!-- <script type="module" src="https://unpkg.com/x-frame-bypass"></script> -->
+
+</head>
+
+<body>
+  <img src="https://money.cnn.com/.element/img/5.0/data/feargreed/1.png">
+  <img src="https://alternative.me/crypto/fear-and-greed-index.png" alt="Latest Crypto Fear & Greed Index" style="width: 15%;"/>
+  <!-- <iframe style="border: 1px solid #333333; overflow: hidden; width: 190px; height: 616px;" src="https://research.stlouisfed.org/fred-glance-widget.php?series_ids=CPIAUCSL,UNRATE,GDPC1,INDPRO,T10Y2Y&transformations=pc1,lin,pca,pch,lin" height="316" width="320" frameborder="0" scrolling="no"></iframe> -->
+
+  <div class="embed-container" style="padding-bottom: 520px;">
+    <iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=mtiz" scrolling="no" frameborder="0" style="overflow:hidden;" allowTransparency="true"></iframe>
+  </div>
+
+  <div class="embed-container" style="padding-bottom: 520px;">
+    <iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=ou3V" scrolling="no" frameborder="0" style="overflow:hidden;" allowTransparency="true"></iframe>
+  </div>
+
+  <div class="embed-container" style="padding-bottom: 520px;">
+    <iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=ou8i" scrolling="no" frameborder="0" style="overflow:hidden;" allowTransparency="true"></iframe>
+    <!-- <iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=ou8i&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden;" allowTransparency="true"></iframe> -->
+  </div>
+
+  <div class="embed-container" style="padding-bottom: 520px;">
+    <iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=lFm1" scrolling="no" frameborder="0" style="overflow:hidden;" allowTransparency="true"></iframe>
+  </div>
+
+  <!-- <img src="https://fred.stlouisfed.org/graph/fredgraph.png?dwnld=1&hires=1&type=image/png&bgcolor=%23e1e9f0&chart_type=line&drp=0&fo=open%20sans&graph_bgcolor=%23ffffff&height=450&mode=fred&recession_bars=on&txtcolor=%23444444&ts=12&tts=12&width=1168&nt=0&thu=0&trc=0&show_legend=yes&show_axis_titles=yes&show_tooltip=yes&id=T10Y2Y&scale=left&cosd=1976-06-01&coed=2019-07-25&line_color=%234572a7&link_values=false&line_style=solid&mark_type=none&mw=3&lw=2&ost=-99999&oet=99999&mma=0&fml=a&fq=Daily&fam=avg&fgst=lin&fgsnd=2009-06-01&line_index=1&transformation=lin&vintage_date=2019-07-26&revision_date=2019-07-26&nd=1976-06-01"> -->
+
+  <script src="https://fred.stlouisfed.org/graph/js/embed.js" type="text/javascript"></script>
+
+  <div style="width: 55%; height: 450px;">
+    <h3>CBOE Volatility Index – <span style="color: #ff0000;">&gt;30 = Fear</span> – <span style="color: #339966;">&lt; 20 = Greed</span></h3>
+    <iframe id="tradingview_8680f1" src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_8680f&amp;symbol=CBOE%3AVIX&amp;interval=W&amp;hidetoptoolbar=1&amp;saveimage=0&amp;toolbarbg=f1f3f6&amp;studies=%5B%5D&amp;theme=Light&amp;style=2&amp;timezone=Etc%2FUTC&amp;studies_overrides=%7B%7D&amp;overrides=%7B%7D&amp;enabled_features=%5B%5D&amp;disabled_features=%5B%5D&amp;locale=en&amp;referral_id=4191&amp;utm_source=www.liberatedstocktrader.com&amp;utm_medium=widget_new&amp;utm_campaign=chart&amp;utm_term=CBOE%3AVIX" style="width: 90%; height: 100%; margin: 0 !important; padding: 0 !important;" frameborder="0" allowtransparency="true" scrolling="no" allowfullscreen=""></iframe>
+    <iframe id="tradingview_8680f2" src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_8680f&amp;symbol=BTCUSD&amp;interval=W&amp;hidetoptoolbar=1&amp;saveimage=0&amp;toolbarbg=f1f3f6&amp;studies=%5B%5D&amp;theme=Light&amp;style=2&amp;timezone=Etc%2FUTC&amp;studies_overrides=%7B%7D&amp;overrides=%7B%7D&amp;enabled_features=%5B%5D&amp;disabled_features=%5B%5D&amp;locale=en&amp;referral_id=4191&amp;utm_source=www.liberatedstocktrader.com&amp;utm_medium=widget_new&amp;utm_campaign=chart&amp;utm_term=CBOE%3AVIX" style="width: 90%; height: 100%; margin: 0 !important; padding: 0 !important;" frameborder="0" allowtransparency="true" scrolling="no" allowfullscreen=""></iframe>
+  </div>
+
+</body>
+</html>
+
+<!--
+stock dashboard:
+
+
+us fear and greed
+crypto fear and greed
+
+fed interest rates
+
+DJIA
+S&P500
+
+GOLD
+
+10yr to 3yr US bond -->
